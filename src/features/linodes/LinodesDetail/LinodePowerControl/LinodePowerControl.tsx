@@ -262,7 +262,7 @@ export class LinodePowerButton extends React.Component<CombinedProps, State> {
               >
                 {(bootOption === 'reboot')
                   ? 'Reboot'
-                  : 'Power Down'}
+                  : 'Power Off'}
               </Button>
               <Button
                 onClick={() => this.setState({ powerAlertOpen: false })}
